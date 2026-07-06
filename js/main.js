@@ -63,11 +63,20 @@
 
   var player = document.querySelector('wistia-player');
   var thumb = document.querySelector('.video-thumb-image');
+
   if (player && thumb) {
     player.addEventListener('play', function () {
       thumb.style.opacity = '0';
       thumb.style.pointerEvents = 'none';
-    }, { once: true });
+    });
+
+    function showThumbnail() {
+      thumb.style.opacity = '1';
+      thumb.style.pointerEvents = 'none';
+    }
+
+    player.addEventListener('pause', showThumbnail);
+    player.addEventListener('ended', showThumbnail);
   }
 
   document.querySelectorAll('.faq-item-top').forEach(function (top) {

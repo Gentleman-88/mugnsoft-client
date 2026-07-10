@@ -1,5 +1,11 @@
-/**br styles **/
 
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+/**br styles **/
 .br-desktop-only {
   display: block;
 }
@@ -192,6 +198,12 @@ p {
   min-width: 4.44444vw;
   height: 4.44444vw;
   display: inline-flex;
+  position: absolute;
+  margin-top: 0.52vw;
+}
+
+.after-bug-icon {
+  margin-left: 4.4vw;
 }
 
 .hero-p {
@@ -322,11 +334,12 @@ p {
 }
 
 .bg-green-linear {
-  background-image: linear-gradient(#00ff8000 27%, #00ff80);
+  background-image: linear-gradient(#00ff8000 35%, #00ff808d);
   border-radius: 1.66667vw;
   height: 53.3333vw;
   position: absolute;
   inset: auto 0% 0%;
+  pointer-events: none;
 }
 
 .bg-green-linear.radial {
@@ -529,7 +542,7 @@ p {
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  margin-top: 2.77778vw;
+  margin-top: 2.008vw;
   display: flex;
 }
 
@@ -624,6 +637,7 @@ p {
   grid-row-gap: 1.11111vw;
   flex-flow: column;
   display: flex;
+  margin-bottom: 1.11111111vw;
 }
 
 .tab-bullet-item {
@@ -694,6 +708,10 @@ p {
 
 .detectez-border {
   border-radius: .694444vw;
+}
+
+.with-bg-section.demarez {
+  padding-top: 3.61111111vw;
 }
 
 .demarrez-inner {
@@ -813,7 +831,7 @@ p {
 }
 
 .integrations {
-  height: 60.8333vw;
+  height: 63.8333vw;
   padding-top: 8.33333vw;
   padding-bottom: 11.1111vw;
 }
@@ -920,6 +938,7 @@ p {
   justify-content: flex-start;
   align-items: flex-start;
   display: flex;
+  color: #cdd3dec0;
 }
 
 .all-in-pulse {
@@ -1006,6 +1025,10 @@ p {
   padding-top: 1.66667vw;
   padding-bottom: 1.66667vw;
 }
+
+.faq-item:last-child {
+    border: 0px;
+  }
 
 .faq-item-top {
   justify-content: space-between;
@@ -1312,7 +1335,7 @@ p {
 }
 
 .reviews-collumn.first {
-  margin-top: -20vw;
+  margin-top: -25vw;
 }
 
 .reviews-shadower {
@@ -1954,6 +1977,7 @@ p {
   h1 {
     letter-spacing: -.328205vw;
     font-size: 8.20513vw;
+    line-height: 1;
   }
 
   h2 {
@@ -1977,6 +2001,11 @@ p {
   .bug-embed {
     width: 9.23vw;
     height: 9.23vw;
+    margin-top: 0.2vw;
+  }
+
+  .after-bug-icon {
+    margin-left: 9.4vw;
   }
 
 
@@ -2237,6 +2266,11 @@ p {
     padding-bottom: 14.359vw;
   }
 
+  .tab-bullets-wrapper {
+    margin-top: -2.057vw;
+    row-gap: 2.057vw;
+  }
+
   .tabs-menu {
     border-radius: 4.102vw;
     grid-column-gap: 2.05128vw;
@@ -2267,6 +2301,7 @@ p {
     grid-row-gap: 6.15385vw;
     align-items: stretch;
     font-size: 3.5897435897vw;
+    line-height: 1.3;
   }
 
   .tab-bullet-item {
@@ -2289,6 +2324,7 @@ p {
   }
 
   .detectez-grid {
+    margin-top: 4.102vw;
     grid-column-gap: 4.10256vw;
     grid-row-gap: 4.10256vw;
   }
@@ -2307,6 +2343,8 @@ p {
   .detectez-item-text-wrap {
     width: 100%;
     font-size: 3.58974vw;
+    row-gap: 6.15vw;
+    line-height: 1.3;
   }
 
   .detectez-item-heading {
@@ -2325,6 +2363,7 @@ p {
 
   .demarez-bullets-grid {
     grid-column-gap: 2.15054vw;
+    margin-bottom: -2.56vw;
     grid-row-gap: 10.15054vw;
   }
 
@@ -2363,7 +2402,7 @@ p {
 
 
   .integrations {
-    height: 171.026vw;
+    height: 173.026vw;
     padding-top: 15.3846vw;
   }
 
@@ -2476,6 +2515,10 @@ p {
     padding-top: 6.15385vw;
     padding-bottom: 6.15385vw;
     font-size: 3.5897435897vw;
+  }
+
+  .faq-item-answer  {
+    padding-top: 0;
   }
 
   .faq-item-top {
@@ -2651,6 +2694,7 @@ p {
   }
 
   .reviews-collumn {
+    margin-top: -68vw;
     width: 87.6923vw;
   }
 

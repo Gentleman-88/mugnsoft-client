@@ -117,7 +117,7 @@
             <p class="hero-top-bullet_p"><span class="hero-top-bullet-accent">Sécurisez</span> vos SaaS et applications web</p><img src="images/icons/Shine.svg" loading="lazy" alt="" class="hero-top-bullet_shine"><img src="images/icons/button-hradient-border.svg" loading="lazy" alt="" class="hor-top-bullet_border">
           </div>
           <div class="hero-heading-wrap">
-            <h1>Ne laissez plus vos utilisateurs découvrir vos <span class="bug-embed"> </span> bugs avant vous</h1>
+            <h1>Ne laissez plus vos utilisateurs découvrir vos <span class="bug-embed"> </span> <span class="after-bug-icon">bugs avant vous</span></h1>
             <p class="hero-p">Surveillez automatiquement les parcours critiques de vos applications web pour détecter les bugs, crashs et lenteurs avant qu’ils n’impactent vos utilisateurs.</p>
           </div>
         </div>
@@ -754,12 +754,11 @@
 <div class="eb-bk-frame">
   <div class="eb-bk-frame-inner">
 
-    <div
-      class="iclosed-widget"
-      data-url="https://app.iclosed.io/e/Clicknland/audit"
-      title="Audit gratuit en 1:1 avec Lucas"
-      style="height:620px;">
-    </div>
+    <!-- Calendly inline widget begin -->
+    <div class="calendly-inline-widget" data-url="https://calendly.com/viseth-chaing" style="min-width:320px;height:700px;"></div>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+    <!-- Calendly inline widget end -->
+    </body>
 
     <script src="https://app.iclosed.io/assets/widget.js" async></script>
 
@@ -769,7 +768,7 @@
 <script>
   (() => {
     const outerSelector = '.eb-bk-frame-inner';
-    const innerSelector = '.iclosed-widget';
+    const innerSelector = '.calendly-inline-widget';
 
     const style = document.createElement('style');
     style.textContent = `

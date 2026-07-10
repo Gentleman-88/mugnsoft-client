@@ -1447,6 +1447,10 @@ p {
     height: 6.45161vw;
   }
 
+   .after-bug-icon {
+    margin-left: 6.4vw;
+}
+
   .hero-p {
     max-width: none;
     font-size: 2.41936vw;

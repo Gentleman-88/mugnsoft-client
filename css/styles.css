@@ -392,7 +392,7 @@ p {
 }
 
 .review-first {
-  padding-top: 8.33333vw;
+  padding-top: 5.5555vw;
   padding-bottom: 11.1111vw;
 }
 
@@ -457,7 +457,7 @@ p {
 .section-top-line {
   border-top: 1px solid #ffffff14;
   padding-top: 5.55556vw;
-  padding-bottom: 11.1111vw;
+  padding-bottom: 11.80556vw;
 }
 
 .les-bugs-content-wrapper {
@@ -643,6 +643,7 @@ p {
 .tab-bullet-item {
   grid-column-gap: .694444vw;
   grid-row-gap: .694444vw;
+  line-height: 1;
   justify-content: flex-start;
   align-items: center;
   display: flex;
@@ -724,7 +725,7 @@ p {
   align-items: stretch;
   margin-left: .902778vw;
   margin-right: .902778vw;
-  padding-bottom: 10.8333333333vw;
+  padding-bottom: 10.9333333333vw;
   padding-left: 7.98611vw;
   padding-right: 7.98611vw;
   display: flex;
@@ -910,6 +911,7 @@ p {
 
 .text-18 {
   font-size: 1.25vw;
+  line-height: 0.72222;
 }
 
 .plan-bullet_item {
@@ -968,7 +970,7 @@ p {
 
 .cta-content-wrapper {
   grid-column-gap: 2.77778vw;
-  grid-row-gap: 2.77778vw;
+  grid-row-gap: 2.47778vw;
   background-image: image-set(url('../images/backgrounds/cta-bg.svg') type('image/avif'), url('../images/backgrounds/cta-bg.svg') type('image/png')), linear-gradient(#020308, #020308);
   background-position: 0 0, 0 0;
   background-repeat: no-repeat, repeat;
@@ -1383,6 +1385,14 @@ p {
 
 
 @media screen and (max-width: 991px) {
+
+
+
+
+    .after-bug-icon {
+        margin-left: 6.4vw;
+    }
+
   h1 {
     letter-spacing: -.301075vw;
     font-size: 7.52688vw;
@@ -1445,11 +1455,9 @@ p {
     width: 6.45161vw;
     min-width: 6.45161vw;
     height: 6.45161vw;
+    background-position: center;
+    background-size: contain;
   }
-
-   .after-bug-icon {
-    margin-left: 6.4vw;
-}
 
   .hero-p {
     max-width: none;
@@ -2099,6 +2107,7 @@ p {
   }
 
   .video-block-shadow-vlack {
+    bottom: 9vw;
     opacity: 100%;
     filter: blur(6px);
   }
@@ -2140,6 +2149,7 @@ p {
   }
 
   .video-block-inner {
+    padding-bottom: 9vw;
     margin-left: 2.05128vw;
     margin-right: 2.05128vw;
     overflow: visible;
@@ -2462,7 +2472,8 @@ p {
   }
 
   .text-18 {
-    font-size: 3.58974vw;
+    font-size: 4.102vw;
+    line-height: 1;
   }
 
   .plan-bullet_item {
@@ -2513,6 +2524,10 @@ p {
     grid-column-gap: 10.2564vw;
     grid-row-gap: 10.2564vw;
     padding-bottom: 22.5641vw;
+  }
+
+  .faq-item:first-child {
+    padding-top: 0px;
   }
 
   .faq-item {
@@ -2710,7 +2725,7 @@ p {
     background-image: url(../images/backgrounds/demarez-mob-bg.png);
     margin-left: 2.052778vw;
     margin-right: 2.052778vw;
-    padding-bottom: 10.8333333333vw;
+    padding-bottom: 16.4333333333vw;
     padding-left: 4.18611vw;
     padding-right: 4.18611vw;
     display: flex;

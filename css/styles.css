@@ -831,9 +831,13 @@ p {
   font-weight: 600;
 }
 
+.hero-top-bullet_p {
+  white-space: nowrap;
+}
+
 .integrations {
   height: 63.8333vw;
-  padding-top: 8.33333vw;
+  padding-top: 4.33333vw;
   padding-bottom: 11.1111vw;
 }
 
